@@ -1,0 +1,75 @@
+.hero17-header78 {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  height: 309px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.hero17-column {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 41px;
+  flex-direction: column;
+  padding-bottom: 36px;
+  justify-content: center;
+}
+.hero17-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero17-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-unit);
+}
+.hero17-button {
+  border-color: #006900;
+  background-color: #006900;
+}
+.hero17-button1 {
+  color: #000000;
+  border-color: #006900;
+}
+.hero17-container1 {
+  display: contents;
+}
+.hero17-text4 {
+  display: inline-block;
+}
+.hero17-text5 {
+  display: inline-block;
+}
+.hero17-text6 {
+  display: inline-block;
+  text-align: center;
+}
+.hero17-text7 {
+  display: inline-block;
+  text-align: center;
+}
+
+@media(max-width: 479px) {
+  .hero17-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero17-button {
+    width: 100%;
+  }
+  .hero17-button1 {
+    width: 100%;
+  }
+  .hero17-root-class-name {
+    flex: 1;
+  }
+}
